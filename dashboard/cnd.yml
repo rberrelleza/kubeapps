@@ -1,0 +1,14 @@
+swap:
+  deployment:
+    name: kubeapps-internal-dashboard
+    image: okteto/node:8
+    command:
+    - sh
+    - -c
+    - yarn install && yarn run start
+mount:
+  source: .
+  target: /usr/src/app
+scripts:
+  hello: echo Your cluster ♥ you
+  test: yarn run test
