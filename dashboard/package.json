@@ -47,7 +47,7 @@
     "build-js": "react-scripts-ts build",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm-run-all build-css build-js",
-    "test": "yarn run build-css && react-scripts-ts test --env=jsdom",
+    "test": "yarn run build-css && react-scripts-ts test --env=jsdom --watchAll",
     "eject": "react-scripts-ts eject",
     "tslint-check": "tslint-config-prettier-check ./tslint.ci.json",
     "prettier": "prettier --write 'src/**/*.{ts,tsx,css}'",
