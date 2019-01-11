@@ -26,7 +26,7 @@ const Footer: React.SFC<IFooterProps> = props => {
               >
                 contributors
               </a>
-              .
+              . Powered by CND :heart:
             </p>
           </div>
           <div className="col-6 text-r">
